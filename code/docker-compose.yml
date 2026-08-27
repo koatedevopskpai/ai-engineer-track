@@ -1,0 +1,15 @@
+## postgres with pgvector ##
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: ai-pgvector
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: ai
+      POSTGRES_PASSWORD: ai
+      POSTGRES_DB: rag
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

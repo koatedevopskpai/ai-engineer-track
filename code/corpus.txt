@@ -1,0 +1,17 @@
+## Account & Password Help ##
+Users reset a forgotten password via the self-service portal at /account/reset. After submitting the reset request, an email with a verification link is sent within five minutes. The link expires after thirty minutes for security reasons. If you do not receive the email, check the spam folder or contact the support team. Passwords must be at least twelve characters and include one uppercase letter, one number, and one symbol.
+
+## Billing & Invoices ##
+Invoices are generated on the 1st of each month and are due within thirty days of issue. Payment can be made by credit card, direct debit, or bank transfer. Late payments incur a one and a half percent monthly interest charge after the due date. You can download a PDF copy of any invoice from the Billing section of your account dashboard at any time.
+
+## Refunds & Returns ##
+Refunds are available within fourteen days of purchase if the service has not been used. To request a refund, open a ticket in the Billing category and include your invoice number. Refunds are processed back to the original payment method within five to seven business days. Subscription fees paid for the current billing period are non-refundable once the period has started.
+
+## Cancelling a Plan ##
+Subscriptions can be cancelled anytime from Settings > Plan. Cancellation takes effect at the end of the current billing cycle, so you keep full access until that date. No pro-rata refund is given for the remainder of the current period. After cancellation, your data is retained for ninety days before it is permanently deleted.
+
+## API Keys & Developer Access ##
+Generate an API key under Settings > Developer. Keys are shown once at creation and cannot be retrieved again; if lost, generate a new one. Keys rotate automatically every ninety days for security. Each key is scoped to a single environment (sandbox or production). To rotate a key manually, delete the old key and create a replacement before the expiry date to avoid downtime.
+
+## Account Management ##
+Adding a second admin user is done under Settings > Users. Invitations expire after seven days. Each user is assigned a role (Owner, Admin, or Member) which controls what they can change. Audit logs record who made changes and when. Uptime for the platform is 99.9% monthly, measured on a rolling thirty-day window, excluding scheduled maintenance windows.

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# Databases
+*.db
+*.sqlite*
+
+# Build 01/02 are their own git repos
+build-01/
+build-02/
