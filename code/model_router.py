@@ -8,16 +8,16 @@ def chat_client():
         from langchain_ollama import ChatOllama
 
         return ChatOllama(model="llama3.2", temperature=0), "ollama/llama3.2"
-    # using openrouter which is OpenAI compatible:
+    # opencode Go which is OpenAI-compatible (flat $10/mo subscription):
     from langchain_openai import ChatOpenAI
 
     return (
         ChatOpenAI(
-            model="meta-llama//llama-3.1-8b-instruct",
-            base_url="https://openrouter.ai.api/v1",
-            api_key=os.getenv("OPENROUTER_API_KEY"),
+            model="deepseek-v4-flash",
+            base_url="https://opencode.ai/zen/go/v1",
+            api_key=os.getenv("OPENCODE_API_KEY"),
         ),
-        "openrouter/llama-3.1-8b",
+        "opencode-go/deepseek-v4-flash",
     )
 
 
